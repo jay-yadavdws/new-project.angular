@@ -1,0 +1,11 @@
+<p> Generated using for loop</p>
+<div *ngIf = 'flag'>
+    <p>Value of Flag is :{{flag}}</p>
+</div>
+<div *ngFor='let x of user'>
+    <p>Name is : {{x.name}}</p>
+    <p>Designation is: {{x.designation}}</p>
+</div>
+
+<button (click) ='toggleButton()'>Click Me</button>
+<p>address-book works!</p>
